@@ -62,10 +62,10 @@ public class TweetStreamMongoDB{
 
 		cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true);
-		cb.setOAuthConsumerKey("sKVHhb4HeDZlNkqPBufhISLIP");
-		cb.setOAuthConsumerSecret("QNlAHXXP14prUl2fly7K1Z5cHLs4JlPJ3zoYKIM9zPVAthkW68");
-		cb.setOAuthAccessToken("3013389983-RPTIpMiHIgmYSk7HhQDBuCODBVzU7IsscT1eL68");
-		cb.setOAuthAccessTokenSecret("XXvhXxadXks4oDtajPq4CC6x25XtyIFdZUEFMRp8Zdwvw");
+		cb.setOAuthConsumerKey("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+		cb.setOAuthConsumerSecret("xxxxxxxxxxxxxxxxxxxx");
+		cb.setOAuthAccessToken("xxxxxxxxxxxxxxx");
+		cb.setOAuthAccessTokenSecret("xxxxxxxxxxxxxx");
 		
 		TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 		StatusListener listener = new StatusListener(){
